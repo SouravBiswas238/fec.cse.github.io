@@ -21,6 +21,9 @@
 
 
 @media (max-width: 1030px){
+    .nav__logo {
+        margin-left: 0%;
+    }
     .navigation__btn{
         display: block;
       }
@@ -32,7 +35,6 @@
         height: 761px;
         z-index: 1000; 
         display: none;
-
     }
     .navigation {
         width: 300px;
@@ -70,6 +72,7 @@
         display: block;
         animation: leftRight ease-in-out .8s ;
     }
+
     #container__dept-head{
         margin: 1rem 1rem;
     
@@ -78,8 +81,8 @@
     #container__slider{
         height: 25rem;
         
-      }
-      #slider figure img {
+    }
+    #slider figure img {
         height: 25rem;
     }
     .head-img{
@@ -207,7 +210,7 @@
     .heading-primary {
         font-size: 1.5rem; 
     }
-    .col-1-0f-3{
+    .col-1-of-3{
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -228,10 +231,18 @@
         font-size: 1.3rem;
         margin: 20px 0px;
     }
+    .single-notice__page{
+        padding: 2rem 5rem;
+    }
    
    
 }
 @media (max-width: 688px){
+
+    .nav__logo img {
+        height: 84px;
+        width: 84px;
+    }
     .teacher-box:first-child {
         padding-top: 0;
     }
@@ -264,6 +275,9 @@
     }
     nav label span{
         display: none;
+    }
+    .single-notice__page{
+        padding: 2rem 0rem;
     }
 
 }

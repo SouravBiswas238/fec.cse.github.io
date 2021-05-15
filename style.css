@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;517;551;600;700&display=swap');
 @import "./css/utility.css";
 @import "./css/animation.css";
+@import "./css/notices.css";
+@import "./css/portfolio.css";
 
 *,*::before,*::after{
     margin: 0;
@@ -17,12 +19,13 @@ nav{
 }
 .nav{
     display: flex;
-    justify-content: space-around;
     text-align: center;
     max-width: 100%;
     height: 6rem;
-}
+    justify-content: space-between;
+  }
 .nav__logo{
+  margin-left: 11%;
  
 }
 .nav__logo img{
@@ -31,6 +34,9 @@ nav{
 }
 .nav__logo img:hover{
     transform: scale(1.1);
+}
+.nav__text{
+  margin-right: 4%;
 }
 .nav__text .fec{
   display: none;
@@ -92,10 +98,10 @@ nav{
     width: 100%;
     transition: ease-in-out .2s;
 } 
-  /* Nevigation sub menu start */
+  /*                        Nevigation sub menu start */
 .sub-menu-4{
     display: none;
-    background-color: rgba(255, 255, 255, 0.755);
+    background-color: rgba(255, 255, 255, 0.918);
   }
 .navigation ul li:hover .sub-menu-4{
     display: block;
@@ -117,9 +123,9 @@ nav{
 .navigation ul li:hover .sub-menu-4 ul li:last-child{
     border-bottom: none;
   }
-  /* Nevigation sub menu End */
+/*                 Nevigation sub menu End */
 
-/* Section Slider start */
+/*                              Section Slider start */
 
 
 #container__slider{
@@ -180,9 +186,9 @@ nav{
       left: -400%;
     }
   }
-/* Section Slider End */
+/*                                 Section Slider End                              */
 
-/* section container__dept-head start */
+/*                                 section container__dept-head start                              */
 #container__dept-head{
     overflow: hidden;
     margin: 2rem 8rem;
@@ -210,6 +216,7 @@ nav{
     border-radius: 4px;
     box-shadow: 0.2rem 0.5rem 1rem 0.1rem black;
 }
+/*                                              #container__notic                         */
 #container__notic{
     overflow: hidden;
     padding: 2rem 5rem;
@@ -303,7 +310,7 @@ table th{
    display: block;
 }
 
-/*                         Container__achievements start                    */
+/*                                 Container__achievements start                    */
 #container__achievements{
   /* background-color: bisque; */
   /* height: 40rem; */
@@ -450,7 +457,7 @@ table th{
    background-color: rgba(138, 128, 128, 0.435);
 }
 
-/*                    container__teachers start                    */
+/*                                              container__teachers start                    */
 
 #container__teachers{
   overflow: hidden;
@@ -490,7 +497,7 @@ table th{
 .teacher-icon img:hover{
   opacity: .7;
 }
-/*                               section footer start                 */
+/*                                         section footer start                 */
 
 #footer{
   padding: 0rem 5rem;

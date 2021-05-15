@@ -1,0 +1,62 @@
+.notice__page{
+    width: 100%;
+}
+.notice__page .col-1-of-3{
+    flex-wrap: wrap;
+}
+.notic-box-1{
+    width: 25rem;
+    padding: 2rem 1rem;
+}
+
+.notic-box-1 .title-date{
+    font-size: 1.2rem;
+    padding: .5rem 0rem;
+    font-weight: 400;
+}
+.notic-box-1 .title-text a{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 400;
+}
+.title-text a:hover{
+    opacity: .5;
+    
+}
+.notic-box-1 p{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+.notic-box-1 .notic-btn{
+    /* font-size: 1.2rem; */
+    padding: .8rem 0rem;
+    font-weight: 400;
+}
+.notic-btn a:hover{
+    color: red;
+}
+
+
+/*                                   Single Notice Box start                      */
+.single-notice__page{
+    padding: 3rem 15rem;
+
+
+}
+.single-notice__page .title-date{
+    font-size: 1.4rem;
+    padding: .5rem 0rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+
+    
+}
+.single-notice__page .title-text a{
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 400;
+}
+.single-notice__page p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
