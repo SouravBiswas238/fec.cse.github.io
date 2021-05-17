@@ -1,10 +1,8 @@
+/*                                               container__portfolio  section start     */
 .portfolio--container-box{
-    /* padding: 1rem 3rem; */
     flex-wrap: wrap;
 }
 .portfolio--container-box .index-portfolio{
-    /* height: 22rem; */
-    /* width: 22rem; */
     margin:1rem 1rem ;
 }
 .portfolio__heading{
@@ -14,7 +12,7 @@
     overflow: hidden;
 }
 .portfolio__heading h1{
-    margin-top: 3rem;
+    margin-top: 4rem;
     color: white;
     font-size: 4rem;
     font-weight: 300;
@@ -27,12 +25,16 @@
     opacity: .7;
 }
 .portfolio-navigation{
-    /* background-color: black; */
     margin-top: 2rem;
-
 }
 .portfolio-navigation a{
+    font-size: 1rem;
     color: rgb(0, 0, 0);
+}
+.portfolio-navigation a.active::after{
+    width: 100% !important;
+    transition: ease-in-out .2s;
+
 }
 .index-portfolio .content{
     background-color: rgba(0, 0, 0, 0.646); 
@@ -40,13 +42,10 @@
 .index-portfolio:hover .bg-img{
     transform: scale(1.1) !important;
 }
-
-
-
 .achievements__box:hover .content{
     visibility: visible;
     opacity: 1;
-  }
+}
 .portfolio-text a{
     position: absolute;
     top: 50%;
@@ -62,33 +61,79 @@
     font-weight: 400;
     padding-bottom: .5rem;
     visibility: hidden;
-  }
+}
 .portfolio-text h1{
     font-size: 1.5rem;
     font-weight: 600;
     padding-top: .5rem;
     visibility: hidden;
-    /* animation: botomUp .5s ease-in-out; */
-    /* animation: botomUpRev .7s ease-in-out; */
-
-
-  }
-
+}
 .achievements__box:hover h4{
     visibility: visible;
-    animation: botomUp .5s ease-in-out;
-    
+    animation: botomUp .5s ease-in-out;  
 }
-/* .achievements__box:hover h1{
-    visibility: visible;
-
-    animation: botomUpRev .7s ease-in-out;
-    
-} */
 .achievements__box:hover h1{
     animation: upBottom .5s ease-in-out;
-    visibility: visible;
+    visibility: visible;  
+}
 
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-  
+/*                Robotic part start        */
+
+.portfolio-robotic{
+    /* height: 2000px; */
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.robotic-left{
+    text-align: center;
+    /* padding: 1rem 1rem; */
+    /* height: 27rem; */
+    width: 35rem;
+} 
+
+.robotic-left figure img{
+    width: 32rem;
+}
+.robotic-right{
+    padding: 1rem 1rem;
+    width: 31rem;
+} 
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 36rem;
+}
+.robotic-right h1{
+    font-size: 3rem;
+} 
+.robotic-right h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(25, 24, 24, 0.591);
+    margin: 1rem 0rem;
+} 
+.robotic-right p{
+    font-size-adjust: 1rem;
+    line-height: 1.5rem;
+} 
+.robotic-right .side-box{
+    padding: 1rem 2rem;
+} 
+.robotic-right .side-box .content-1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(76, 74, 74, 0.265);
+    margin: 1rem 0rem;
+} 
+.robotic-right .side-box .content-1 h4{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(25, 24, 24, 0.591);
+} 
+.robotic-icon{
+    margin-left: 12rem !important;
+    margin-top: -2rem !important;
 }

@@ -97,7 +97,7 @@
         padding: 0;
     }
     table th, table td {
-        padding: 7px 7px;
+        padding: 13px 7px;
     }
     .notices{
         font-size: 1.4rem;
@@ -139,7 +139,7 @@
    
 
 }
-@media (max-width: 845px){
+@media (max-width: 850px){
   
   
     .nav__text h1{
@@ -176,6 +176,11 @@
         border: 5px solid #1D2327;
 
     }
+    .view-all{
+        margin: 2rem 0rem;
+        padding: 9px 17px;
+        border-radius: 9px;
+    }
     .events h4 span {
         display: block;
         font-size: 1rem;
@@ -184,10 +189,7 @@
     .events{
         margin: 1rem .5rem;
         font-size: 1rem;
-        height: 31rem;
         border: 5px solid #1D2327;
-
-
     }
     .events h4 span {
         display: block;
