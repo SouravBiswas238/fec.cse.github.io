@@ -73,7 +73,7 @@
     .sub-menu-4 ul li a{
         color: black;
     }
-    .navigation__cheakbox:checked ~ .navigation__menu{
+    .navigation__btn:focus ~ .navigation__menu{
         width:300px;
 /*         display: block; */
 /*         animation: leftRight ease-in-out .8s ; */
