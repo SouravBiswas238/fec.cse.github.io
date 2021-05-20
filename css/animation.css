@@ -23,13 +23,80 @@
     }
      
 }
-@keyframes upBottom{
+@keyframes back-list-text {
     0%{
-        transform: translateY(-1rem);
+        transform: translateY(5px);
         opacity: 0;
     }
     100%{
         transform: translateY(0rem);
+    }
+     
+}
+@keyframes upBottom{
+    0%{
+        transform: translateY(-1rem);
+        opacity: .2;
+    }
+    100%{
+        transform: translateY(0rem);
+    }
+     
+}
+@keyframes icon-chevron{
+    0%{
+        transform: translateX(-.5rem);
+    }
+    5%{
+        transform: translateX(0rem);
+    }
+    10%{
+        transform: translateX(-.5rem);
+
+    }
+    15%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-.5rem);
+
+
+
+    }
+    35%{
+        transform: translateX(0);
+    }
+    45%{
+        transform: translateX(-.5rem);
+
+
+    }
+    55%{
+        transform: translateX(0);
+    }
+    65%{
+        transform: translateX(-.5rem);
+        /* opacity: .5; */
+
+
+
+    }
+    75%{
+        transform: translateX(0);
+    }
+    85%{
+        transform: translateX(-.5rem);
+        /* opacity: .5; */
+
+
+    }
+    95%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-.5rem);
+
+
     }
      
 }

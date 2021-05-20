@@ -37,6 +37,8 @@ nav{
 }
 .nav__text{
   margin-right: 4%;
+  text-align: right;
+  font-size: 1.1rem;
 }
 .nav__text .fec{
   display: none;
