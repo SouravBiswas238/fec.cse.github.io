@@ -169,18 +169,18 @@
 .back-list-right:hover .icon-chevron{
     animation: icon-chevron 9s ease-in;
 }
-.color{
+.chevron-color{
     border: 2px solid black;
     color: black;
     font-size: 1rem;
     padding: 5px 8px;
     border-radius: 27px;
 }
-.back-list-left:hover .color{
+.back-list-left:hover .chevron-color{
     border: 2px solid rgb(255, 0, 0);
     color: rgb(255, 0, 0);
 }
-.back-list-right:hover .color{
+.back-list-right:hover .chevron-color{
     border: 2px solid rgb(255, 0, 0);
     color: rgb(255, 0, 0);
 }
@@ -236,7 +236,12 @@
     /* transition: all .2s; */
 }
 
-
+.related__project{
+    margin: 1rem 5rem;
+}
+.related__project-item:hover .relatedProject-chevron-icon{
+    display: block;
+}
 .related__project-text{
     margin: 0rem 9rem;
     display: block;
@@ -251,7 +256,33 @@
     transition: all 1s;
 }
 .related__project-text h2:hover::after{
+    width: 16%;  
+}
+.related__project-item{ 
+    align-items: center;
 
-    width: 16%;
+}
+
+.relatedProject-chevron-icon{
+    color: rgba(0, 0, 0, 0.891);
+    display: none;
+ 
+}
+.chevron-hidden-left{
+    font-size: 1.7rem;
+    font-weight: 600;
+    transition: all .1s;
+    transition: ease-in;
+    animation: leftRight .3s ease-in;
+}
+.chevron-hidden-right{
+    font-size: 1.7rem;
+    font-weight: 600;
+    transition: all .1s;
+    transition: ease-in;
+    animation: rightLeft .3s ease-in;
+}
+.relatedProject-chevron{
+    color: black;
    
 }
