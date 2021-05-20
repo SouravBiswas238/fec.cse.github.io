@@ -32,11 +32,11 @@
         position: fixed;
         top: 0;
         left: 0;
-        height: 761px;
+        height: 100vh;
         z-index: 1000; 
         width:0;
         overflow:hidden;
-        transition:1s;
+        transition:0.6s;
 /*         display: none; */
         
         
@@ -51,6 +51,7 @@
     }
     .navigation ul li{
         font-size: 1.1rem;
+        width: 100%;
     }
     .navigation ul li a {
         color: black;
@@ -75,6 +76,7 @@
     }
     .navigation__btn:focus ~ .navigation__menu{
         width:300px;
+        box-shadow: 0px 0px 0px 100vw rgba(53, 53, 53, 0.404);
 /*         display: block; */
 /*         animation: leftRight ease-in-out .8s ; */
     }
