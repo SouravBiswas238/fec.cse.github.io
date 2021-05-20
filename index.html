@@ -9,9 +9,9 @@
 
     <link rel="shortcut icon" href="img/download (1).jfif" type="image/x-icon">
 
-
-    <!-- <script src="https://kit.fontawesome.com/459e15cfa2.js" crossorigin="anonymous"></script> -->
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/459e15cfa2.js" crossorigin="anonymous"></script>
+    
 
 
 
@@ -19,6 +19,7 @@
 
 
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="./js/jquery-slim.min.js"></script>
 
 
 
@@ -31,7 +32,7 @@
     <nav>
 
         <input type="checkbox" name="cheakbox" id="navi-toggle" class="navigation__cheakbox">
-        <label for="navi-toggle" class="navigation__btn"> <i class="fas fa-bars"></i> <span class="menu" >MENU</span> </label>
+        <label for="navi-toggle" class="navigation__btn" id="nav__btn" tabindex="3"> <i class="fas fa-bars"></i> <span class="menu" >MENU</span> </label>
         <div class="nav">
             <div class="nav__logo">
                 <img src="./img/logo-1.png" alt="">
@@ -45,7 +46,7 @@
                 </a>
             </div>
         </div>
-        <div class="navigation__menu">
+        <div class="navigation__menu" id="nav__menu">
             <div class="navigation open">
                 <ul>
 
@@ -499,6 +500,8 @@
         Designed & Developed by the "Department of Computer Science and Engineering, Faridpur Engineering College."
     </footer>
 </div>
+<!--     Javascript files -->
+    <script src='./js/core.js'></script>
 </body>
 
 </html>
