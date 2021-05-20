@@ -14,6 +14,16 @@
         padding: 0rem 0rem;
       
     }
+    .portfolio-robotic {
+        /* height: 2000px; */
+        padding: 1rem 3rem;
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .robotic-left figure img {
+        margin-top: 10px;
+        height: 22rem;
+    }
 
 
 }
@@ -37,11 +47,12 @@
         width:0;
         overflow:hidden;
         transition:0.6s;
-        
-        
     }
     .navigation {
         width: 300px;
+    }
+    .nav__text h2{
+        font-size: 1.43rem;
     }
     .navigation ul {
         display: flex;
@@ -138,6 +149,11 @@
         font-size: 1.2rem;
         margin: 20px 0px;
     }
+    .container__back-to-list {
+        
+        max-width: 50rem;
+        margin: 3rem 3rem;
+    }
    
 
 }
@@ -152,13 +168,13 @@
     .nav__text h1{
         display: none;
     }
+    .nav__text h2{
+        font-size: 1rem;
+    }
     .nav__text .fec{
         display: inline-block;
         /* font-size: 1rem; */
       }
-    .nav__text h2{
-        font-size: 1rem;
-    }
     #container__slider{
         height: 15rem;
         
@@ -288,6 +304,10 @@
     }
     .single-notice__page{
         padding: 2rem 0rem;
+    }
+    .container__back-to-list {
+        max-width: 50rem;
+        margin: 1rem 0rem;
     }
 
 }

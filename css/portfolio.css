@@ -6,13 +6,12 @@
     margin:1rem 1rem ;
 }
 .portfolio__heading{
-    height: 15rem ;
+    padding: 4rem 1rem;
     background-color: black;
     text-align: center;
     overflow: hidden;
 }
 .portfolio__heading h1{
-    margin-top: 4rem;
     color: white;
     font-size: 4rem;
     font-weight: 300;
@@ -25,21 +24,34 @@
     opacity: .7;
 }
 .portfolio-navigation-menu{
-    /* display: block !important; */
-
 
 }
 .portfolio-navigation{
     margin-top: 2rem;
+}
+.portfolio-navigation ul{
+    display: flex;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+.portfolio-navigation ul li{
+    padding: 5px 10px;
 }
 .portfolio-navigation a{
     font-size: 1rem;
     color: rgb(0, 0, 0);
 }
 .portfolio-navigation a.active::after{
-    width: 100% !important;
-    transition: ease-in-out .2s;
 
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: rgb(255, 46, 46);
+    margin-top: 0px; 
 }
 .index-portfolio .content{
     background-color: rgba(0, 0, 0, 0.646); 
@@ -186,19 +198,23 @@
 }
 .icon-chevron a{
     padding: 0rem 1rem;
-
 }
 .newre ,.older{
     font-size: .9rem;
     color: rgb(0, 0, 0);
     font-weight: 500;
 }
-.newre span{
+.newre{
     display: block;
     font-weight: 600;
     color: rgba(17, 16, 16, 0.591);
 }
-.older span{
+.newre span, .older span{
+    display: block;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.older{
     display: block;
     font-weight: 600;
     text-align: end;
@@ -285,4 +301,71 @@
 .relatedProject-chevron{
     color: black;
    
+}
+@media (max-width: 1030px){
+    .portfolio__heading {
+        padding: 2rem 1rem;
+    }
+    .portfolio__heading h1{
+        font-size: 3rem;
+    }
+    .portfolio-robotic {
+        /* padding: 1rem 5rem; */
+    }
+}
+@media (max-width: 688px){
+    .portfolio__heading {
+        padding: 1rem 1rem;
+    }
+    .portfolio__heading h1{
+        font-size: 2rem;
+    }
+    .robotic-right h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .portfolio-robotic {
+        padding: 1rem 0rem !important;
+    }
+    .sticky {
+        padding: 1rem 1rem;
+    }
+    .robotic-right .view-all {
+        display: block;
+        text-align: center;
+    }
+    .robotic-icon {
+        text-align: right;
+        margin-left: 0rem !important;
+        margin-top: 0rem !important;
+    }
+    .robotic-right {
+        padding: 0rem;
+    }
+    .robotic-right h5 {
+        font-size: 1rem;
+    }
+    .robotic-right p {
+        font-size: 1rem;
+    }
+    .teacher-icon img {
+        height: 28px !important;
+    }
+    .newre span, .older span{
+        display: none;
+    }
+    .related__project {
+        margin: 1rem 1rem;
+    }
+    .related__project-text {
+        margin: 0rem 0rem;
+    }
+    .related__project-text h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .related__project-text h2::after{
+        height: 0px;
+       
+    }
 }
