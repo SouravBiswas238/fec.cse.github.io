@@ -2,6 +2,7 @@
 @import "./css/utility.css";
 @import "./css/animation.css";
 @import "./css/notices.css";
+@import "./css/events.css";
 @import "./css/portfolio.css";
 
 *,*::before,*::after{

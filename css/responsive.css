@@ -88,6 +88,7 @@
         width:300px;
         box-shadow: 0px 0px 0px 100vw rgba(53, 53, 53, 0.404);
     }
+    
 /*                      container__dept-head                               */
     #container__dept-head{ 
         margin: 1rem 1rem;
@@ -105,9 +106,7 @@
         text-align: center;
     
     }
-    .head-img img{
-        /* width: 25rem; */
-    }
+
     #container__notic {
         overflow: hidden;
         padding: 0;
@@ -320,7 +319,7 @@
         font-size: .9rem;
     }
     table th, table td {
-        padding: 1px 0px;
+        padding: 1px 2px;
         font-size: .8rem;
     }
     .table-bordered {

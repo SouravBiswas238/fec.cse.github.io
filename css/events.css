@@ -1,0 +1,19 @@
+.event__page{
+   
+
+}
+.event__calender{
+
+}
+.event__calender img{
+    padding: 0rem 2rem;
+    width: 60%;
+}
+
+@media (max-width: 820px){
+    .event__calender img{
+        padding: 0rem 0rem;
+        width: 100%;
+    }
+
+}
