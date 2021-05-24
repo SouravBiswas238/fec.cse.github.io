@@ -27,8 +27,21 @@
     100%{
         transform: translate(0);
 
+    } 
+}
+@keyframes scrolltop {
+    0%{
+        transform: translateX(0rem);
+        opacity: 0;
     }
-    
+  
+    50%{
+        opacity: .5;
+    }
+    100%{
+        transform: translate(-1rem);
+
+    } 
 }
 @keyframes botomUp {
     0%{

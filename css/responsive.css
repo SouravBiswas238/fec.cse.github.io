@@ -308,6 +308,11 @@
         max-width: 50rem;
         margin: 1rem 0rem;
     }
+    #scrollTop{
+        font-size: 1.3rem;
+        padding: 3px 9px;
+
+      }
 
 }
 

@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;517;551;600;700&display=swap');
 @import "./css/utility.css";
 @import "./css/animation.css";
@@ -13,6 +14,8 @@ body{
   font-family: 'Fira Code', monospace;
 
 }
+  /*                        Nevigation   start                      */
+
 nav{
     width: 100%;
     background-color: rgba(29, 35, 39, 0.993);
@@ -64,9 +67,9 @@ nav{
     justify-content: center;
     border-top: 1px solid rgba(255, 255, 255, 0.204);
 }
-.navigation{
-    
-}
+/* .navigation{
+ 
+} */
 .navigation ul{
   display: flex;
   list-style: none;
@@ -198,9 +201,9 @@ nav{
     position: relative;
 
 }
-.head-text{
+/* .head-text{
     
-}
+} */
 .head-text h1{
     text-align: center;
     font-size: 1.77rem;
@@ -269,9 +272,9 @@ table th{
   justify-content: space-evenly;
   margin: 2rem 0rem;
 }
-.events-date{
+/* .events-date{
 
-}
+} */
 .events h4{
   display: block;
   font-weight: 400;
@@ -284,9 +287,9 @@ table th{
   font-size: 1.4rem;
   font-weight: 500;
 }
-.events-sub{
+/* .events-sub{
   
-}
+} */
 .calender{
   text-align: left;
   margin: 1rem;
@@ -312,14 +315,16 @@ table th{
 }
 
 /*                                 Container__achievements start                    */
-#container__achievements{
-  /* background-color: bisque; */
-  /* height: 40rem; */
-}
+
+
+
+/* #container__achievements{
+  background-color: bisque;
+  height: 40rem;
+} */
 .achievements__box{
   height: 25rem;
   width: 25rem;
-  /* border: 2px solid; */
   position: relative;
   overflow: hidden;
 }
@@ -564,3 +569,17 @@ footer{
     padding: 10px 20px;
 }
 
+#scrollTop{
+  color: rgb(0, 0, 0);
+  position: fixed;
+  right: 0px;
+  bottom: 25px;
+  font-size: 1.7rem;
+  padding: 6px 12px;
+  border-radius: 100px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px 0px rgb(140 135 135);
+  animation: scrolltop .5s ease-in-out;
+  transform: translateX(-1rem);
+  display: none;
+}
