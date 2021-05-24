@@ -13,3 +13,6 @@ $("#nav__btn").click(function () {
 $("#nav__btn").focusout(function () {
   focused = false;
 });
+
+
+
