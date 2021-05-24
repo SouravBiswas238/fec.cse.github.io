@@ -34,13 +34,11 @@
         transform: translateX(0rem);
         opacity: 0;
     }
-  
     50%{
         opacity: .5;
     }
     100%{
         transform: translate(-1rem);
-
     } 
 }
 @keyframes botomUp {
@@ -90,16 +88,12 @@
     25%{
         transform: translateX(-.5rem);
 
-
-
     }
     35%{
         transform: translateX(0);
     }
     45%{
         transform: translateX(-.5rem);
-
-
     }
     55%{
         transform: translateX(0);
@@ -107,9 +101,6 @@
     65%{
         transform: translateX(-.5rem);
         /* opacity: .5; */
-
-
-
     }
     75%{
         transform: translateX(0);
@@ -117,16 +108,12 @@
     85%{
         transform: translateX(-.5rem);
         /* opacity: .5; */
-
-
     }
     95%{
         transform: translateX(0);
     }
     100%{
         transform: translateX(-.5rem);
-
-
     }
      
 }

@@ -11,24 +11,17 @@
         margin: 0rem 2rem;
     }
     #footer{
-        padding: 0rem 0rem;
-      
+        padding: 0rem 0rem; 
     }
     .portfolio-robotic {
-        /* height: 2000px; */
         padding: 1rem 3rem;
         display: block;
-        /* justify-content: space-between; */
     }
     .robotic-left figure img {
         margin-top: 10px;
         height: 22rem;
     }
-
-
 }
-
-
 
 @media (max-width: 1030px){
     .nav__logo {
@@ -87,14 +80,11 @@
     .navigation__btn:focus ~ .navigation__menu{
         width:300px;
         box-shadow: 0px 0px 0px 100vw rgba(53, 53, 53, 0.404);
-    }
-    
+    }  
 /*                      container__dept-head                               */
     #container__dept-head{ 
         margin: 1rem 1rem;
-    
     }
-
     #container__slider{
         height: 25rem;
         
@@ -106,7 +96,6 @@
         text-align: center;
     
     }
-
     #container__notic {
         overflow: hidden;
         padding: 0;
@@ -148,8 +137,7 @@
         font-size: 1.2rem;
         margin: 20px 0px;
     }
-    .container__back-to-list {
-        
+    .container__back-to-list {  
         max-width: 50rem;
         margin: 3rem 3rem;
     }
@@ -172,7 +160,6 @@
     }
     .nav__text .fec{
         display: inline-block;
-        /* font-size: 1rem; */
       }
     #container__slider{
         height: 15rem;
@@ -195,7 +182,6 @@
         margin: 1rem .5rem;
         font-size: 1rem;
         border: 5px solid #1D2327;
-
     }
     .view-all{
         margin: 2rem 0rem;
@@ -345,7 +331,6 @@
     }
     
 }
-
 
 @media (max-width: 364px){
 
