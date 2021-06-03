@@ -1,0 +1,112 @@
+.nav-contact{
+    overflow: hidden;
+}
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(233, 230, 230),rgb(199, 199, 199) );
+    overflow: hidden;
+    /* overflow: hidden; */
+    position: relative;
+
+}
+.contact__color{
+    position: absolute;
+    filter: blur(150px);
+}
+.contact__color:nth-child(1){
+    top: 20px;
+    width: 500px;
+    height: 500px;
+    background: #e63946;
+    
+}
+.contact__color:nth-child(2){
+    left: 0px;
+    width: 400px;
+    height: 400px;
+    background: #003049;
+}
+.contact__color:nth-child(3){
+    right: 0px;
+    width: 300px;
+    height: 300px;
+    background: #003049;
+}
+.contact-box{
+    position: relative;
+}
+.contact-container{
+    position: relative;
+    width: 500px;
+    min-height: 400px;
+    background: rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.123);
+    border: 1px solid rgba(255, 255, 255, 0.239);
+    border-right: 1px solid rgba(4, 3, 3, 0.239);
+
+}
+.contact-form{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 2rem 3rem;
+    margin-left: 2rem;
+
+
+}
+.contact-form h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+}
+.contact-input{
+    margin: 1rem;
+}
+.contact-input span{
+    color: white;
+    display: block;
+    text-align: left;
+    margin: 10px;
+    margin-left: 0rem;
+    /* margin-left: 2rem; */
+    
+    
+}
+.contact-input input{
+    color: white;
+    padding: .45rem;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+}
+    
+.contact-input input::placeholder{
+    color: rgb(9, 9, 9);
+    text-align: left;
+    
+}
+.inputSubmit input{
+    width: 30%;
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: 1px solid black;
+    background: linear-gradient(rgba(245, 2, 2, 0.708), rgba(77, 4, 4, 0.518));
+}
+.inputSubmit input:hover{
+    background: linear-gradient(rgba(77, 4, 4, 0.518),rgba(245, 2, 2, 0.708));
+}
+.contact-input textarea{
+
+    
+}
