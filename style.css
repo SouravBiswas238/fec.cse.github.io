@@ -526,8 +526,8 @@ footer{
   position: fixed;
   right: 0px;
   bottom: 25px;
-  font-size: 1em;
-  padding: 8px 12px;
+  font-size: 1.3rem;
+  padding: 9px 14px;
   border-radius: 100px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 1px 5px 1px rgb(140 135 135);
